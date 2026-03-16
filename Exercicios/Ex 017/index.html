@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /*
+            Medidas absolutas:
+            cm, mm, in, px, pt, pc
+            Medidas relativas:
+            em, ex, vh, rem, vh, %
+            Recomendação: usar sempre px ou em
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /*WEIGHT = PESO
+            font-weight
+            valores aceitos para algmas fontes: lighter, normal, bold e bolder
+            */
+            font-weight: 900;
+
+            /*PROPRIEDADE SHORTHAND
+            - font-style -> font weight -> font size -> font-family
+            ex:
+            font-style: italic
+            font weight: bold
+            font-size: 3em
+            font-family: Courier New
+            Em vez de escrever todas essas linhas, se faz o shorthand, que se escreve em uma só.
+            */
+
+        }  
+        h1 {
+            font: italic bolder 2em 'Courier New'
+        }
+
+        h2 {
+            font: italic bolder 2em 'Courier New'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, tempora perferendis! Expedita tenetur aut repellendus beatae numquam nobis iure fugiat, ad cupiditate qui ut, aperiam ipsum deserunt distinctio, voluptatibus eveniet? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ratione molestiae tenetur totam odio voluptate adipisci voluptates laudantium quibusdam perspiciatis, reiciendis aut libero provident sequi, esse hic itaque dolores aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt nam iusto rem corporis aperiam, quos quisquam odio repudiandae natus, reprehenderit earum similique sit officiis obcaecati ratione inventore fuga fugiat dolorem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis harum minus quisquam atque excepturi. Amet corporis alias quasi! Voluptatum iste sunt corrupti provident itaque! Nobis laudantium velit voluptatum suscipit rem.</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A harum sapiente mollitia aspernatur autem corrupti, sed minima, hic quidem necessitatibus quod. Velit, voluptatum soluta incidunt veritatis delectus omnis voluptate veniam?</p>
+</body>
+</html>

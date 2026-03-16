@@ -1,0 +1,23 @@
+@charset "UTF8";
+body {
+    background-color: rgb(6, 26, 51);
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+     }
+div {
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
+h1 {
+    color: antiquewhite;
+}
+h2 {
+    color: antiquewhite;
+}
+p {
+    color: antiquewhite;
+}
+
+
