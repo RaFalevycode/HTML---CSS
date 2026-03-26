@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table {
+            border-collapse: collapse
+        }
+        caption {
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid rgb(0, 100, 67);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabela</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>bom</td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Kaimi</td>
+                <td>Batman</td>
+                <td>Inception</td>
+                <td>A Forja</td>
+            </tr>
+            <tr>
+                <td>Klaudia</td>
+                <td>Matrix</td>
+                <td>John Wick</td>
+                <td>Shrek</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno</td>
+                <td>Odisseia</td>
+                <td>PH</td>
+                <td>Django</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Wall-E</td>
+                <td>Hellboy</td>
+                <td>Homem de ferro</td>
+            </tr>
+            <tr>
+                <td>Fábio</td>
+                <td>Fisica 3</td>
+                <td>Oppeheimmer</td>
+                <td>Interestelar</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
